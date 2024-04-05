@@ -1,0 +1,17 @@
+qna = {
+    "hi":"hey",
+    "how are you":"I am fine",
+    "what is your name":"My name is khushi chouksey",
+    "how old are you":"I am 21 years old",
+    "what is your favorate colour":"Red/black"
+}
+
+while True:
+    qs = input()
+
+    if(qs == "quit"):
+        break
+
+    else:
+        print(qna[qs])
+           
